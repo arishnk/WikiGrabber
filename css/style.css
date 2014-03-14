@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+	font-family: Montserrat;
+	margin: 0;
+}
+
+a {
+	color: #009900;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: .8;
+}
+
+h1 {
+	display: none;
+	background: #666 url(../img/globe.png) 10px center no-repeat;
+	color: #fff;
+	font-size: 72px;
+	font-weight: normal;
+	margin: 0 0 0 0;
+	padding: 40px 40px 40px 150px;
+}
+
+#theWikis {
+	font-size: 18px;
+	line-height: 30px;
+	max-width: 580px;
+	margin: 0 0 40px 0;
+	padding: 0 40px;
+}
+
+#theWikis .aWiki {
+	border-top: 10px dashed #ddd;
+	padding-top: 40px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+
+#theWikis .aWiki:first-child {
+	border-top: 0;
+	padding-top: 0;
+}
+
+#theWikis .aWiki:hover {
+	opacity: .5;
+}
+
+#theWikis h2 {
+	display: none; 
+	color: #666;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 42px;
+	margin: 0 0 20px 0;
+	max-width: 580px;
+}
+
+#theWikis h2:first-child {
+	border-top: none;
+}
+
+#theWikis h2>em {
+	color: #000;
+}
+
+#theWikis p {
+	display: none;
+}
+
+#theWikis p.firstParagraph:before {
+	color: #666;
+	content: '\201C';
+	font-size: 52px;
+	margin-left: -26px;
+	margin-top: 4px;
+	position: absolute;
+}
+
+#theWikis p.firstParagraph:after {
+	color: #666;
+	content: '\201D';
+	font-size: 52px;
+	margin: 6px 0 0 10px;
+	position: absolute;
+} 
+
+#anotherOne {
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	background: #33dd33;
+	padding: 20px 40px;
+	margin: 20px 40px;
+	max-width: 500px;
+}
+
+#anotherOne:hover {
+	opacity: .5;
+}
+
+@media (max-width: 620px) {
+	h1 {
+		background-size: 65px 55px;
+		background-position: 20px center;
+		padding-left: 90px;
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 530px) {
+	h1 {
+		font-size: 32px;
+	}
+} 
